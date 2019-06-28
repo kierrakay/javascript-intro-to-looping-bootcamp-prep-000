@@ -21,12 +21,12 @@ function whileLoop(n) {
 
 
 function doWhileLoop(num) {
-function incrementVariable() {
+incrementVariable() {
   i = i + 1;
   return i;
 }
  
 do {
-  console.log("");
+  console.log("I run once regardless.");
 } while (incrementVariable() < 5);
 
