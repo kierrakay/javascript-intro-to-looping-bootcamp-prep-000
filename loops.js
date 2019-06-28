@@ -20,9 +20,3 @@ function whileLoop(n) {
 }
 
 
-function doWhileLoop(num) {
-  incrementVariable() {
-  i = i + 1;
-  return i;
-}
-
