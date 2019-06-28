@@ -19,7 +19,10 @@ function whileLoop(n) {
   return "done";
 }
 
-function doWhile(num) {
+function doWhileincrementVariable(num) {
+  i = i + 1;
+  return i;
+}
 
 do {
     x++;
