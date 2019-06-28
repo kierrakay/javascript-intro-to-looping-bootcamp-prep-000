@@ -19,3 +19,13 @@ function whileLoop(n) {
   return "done";
 }
 
+var i = 0;
+ 
+function doWhileincrementVariable() {
+  i = i + 1;
+  return i;
+}
+ 
+do {
+  console.log("");
+} while (incrementVariable() < 5);
