@@ -19,6 +19,21 @@ function whileLoop(n) {
   return "done";
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function doWhileLoop(num) {
 let x = 0;
 do {
@@ -26,5 +41,9 @@ do {
     x++;
 } while (x < 5);
 
-
+let x = 10;
+do {
+    console.log(x); // Prints 10
+    x++;
+} while (x <= 5);
 }
