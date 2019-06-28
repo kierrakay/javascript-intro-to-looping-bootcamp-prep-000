@@ -19,3 +19,12 @@ function whileLoop(n) {
   return "done";
 }
 
+function doWhile(num) {
+let x = 0;
+
+do {
+    // Increment variable by 1
+    x++;
+    console.log(x);
+} while (false);
+}
