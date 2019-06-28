@@ -39,13 +39,13 @@ do {
 function doWhileLoop(num) {
 let x = 0;
 do {
-    console.log();  // Prints numbers from 0 to 4
+    console.log("I run once regardless.");  // Prints numbers from 0 to 4
     x++;
-} while (x < 5);
+} while (x < 1);
 
 let x = 10;
 do {
-    console.log(x); // Prints 10
+    console.log(); // Prints 10
     x++;
 } while (x <= 5);
 }
