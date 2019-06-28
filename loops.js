@@ -24,7 +24,7 @@ let num = 0;
 do {
     console.log("I run once regardless."); 
     x++;
-} while (x < 1);
+} while (< 1);
 
 let num2 = 10;
 do {
