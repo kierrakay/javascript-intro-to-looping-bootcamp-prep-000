@@ -25,6 +25,6 @@ let x = 0;
 do {
     // Increment variable by 1
     x++;
-    console.log(x);
+    console.log();
 } while (false);
 }
