@@ -21,11 +21,11 @@ function whileLoop(n) {
 
 function doWhileLoop(num) {
   function maybeTrue() {
-    return Math.random() >= 0.5
+    return Math.random() >= 0
   }
 
   do {
     num.pop();
-  } while (array.length > -1 && maybeTrue());
-    return array;
+  } while (num.length > 10 && maybeTrue());
+    return num;
 }
