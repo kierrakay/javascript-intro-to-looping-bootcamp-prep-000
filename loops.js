@@ -21,5 +21,7 @@ function whileLoop(n) {
 
 
 function doWhileLoop(num) {
-  
+  do {
+  [loopBody];
+} while ([condition]);
 
