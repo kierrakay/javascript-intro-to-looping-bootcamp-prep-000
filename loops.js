@@ -27,7 +27,9 @@ function whileLoop(n) {
 
 
 
-
+do {
+  // Your code here
+} while (condition);
 
 
 
