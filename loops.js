@@ -27,5 +27,5 @@ function doWhileincrementVariable() {
 }
  
 do {
-  console.log("");
-} while (incrementVariable() < 5);
+  console.log("I run once regardless.");
+} while (incrementVariable() < 10);
