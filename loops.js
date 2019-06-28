@@ -19,23 +19,6 @@ function whileLoop(n) {
   return "done";
 }
 
-
-
-
-
-
-
-
-
-do {
-  // Your code here
-} while (condition);
-
-
-
-
-
-
 function doWhileLoop(num) {
 let x = 0;
 do {
@@ -45,7 +28,7 @@ do {
 
 let x = 10;
 do {
-    console.log("I run once regardless."); // Prints 10
+    console.log("I run once regardless.");
     x++;
-} while (x <= 5);
+} while (x <= 10);
 }
