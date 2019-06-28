@@ -20,12 +20,5 @@ function whileLoop(n) {
 }
 
 function doWhileLoop(num) {
-  function maybeTrue() {
-    return Math.random() >= 0
-  }
 
-  do {
-    num.pop();
-  } while (num.length > 10 && maybeTrue());
-    return num;
 }
