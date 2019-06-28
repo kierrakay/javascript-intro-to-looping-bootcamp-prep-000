@@ -20,11 +20,11 @@ function whileLoop(n) {
 }
 
 function doWhile(num) {
-let x = 0;
+let  = 0;
 
 do {
     // Increment variable by 1
     x++;
-    console.log();
+    console.log("I run once regardless.");
 } while (false);
 }
