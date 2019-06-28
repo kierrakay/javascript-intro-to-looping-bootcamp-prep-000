@@ -20,5 +20,11 @@ function whileLoop(n) {
 }
 
 function doWhileLoop(num) {
+let x = 0;
+do {
+    console.log(x);  // Prints numbers from 0 to 4
+    x++;
+} while (x < 5);
+
 
 }
