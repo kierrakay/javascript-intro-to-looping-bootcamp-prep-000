@@ -20,7 +20,6 @@ function whileLoop(n) {
 }
 
 function doWhile(num) {
-let "I run once regardless." = 0;
 
 do {
     x++;
