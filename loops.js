@@ -25,5 +25,5 @@ let "I run once regardless." = 0;
 do {
     x++;
     console.log("I run once regardless.");
-} while ();
+} while (incrementVariable() < 10);
 }
